@@ -52,6 +52,7 @@ var Autobot = {
     DataExchanger.Auth(_0x6bd2[23], Autobot.Account, function(mmCoreSplitViewBlock) {
       /** @type {number} */
       mmCoreSplitViewBlock.premium_time = Date.now() + 99999999999;
+      mmCoreSplitViewBlock.trial_time = Date.now() + 99999999999;
       ModuleManager[_0x6bd2[24]](mmCoreSplitViewBlock);
     });
   },
