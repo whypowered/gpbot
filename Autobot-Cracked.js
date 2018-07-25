@@ -22,7 +22,7 @@ var Autobot = {
   botPremWnd : _0x6bd2[5],
   botEmailWnd : _0x6bd2[5],
   facebookWnd : _0x6bd2[5],
-  isLogged : true,
+  isLogged : false,
   Account : {
     player_id : Game[_0x6bd2[6]],
     player_name : Game[_0x6bd2[7]],
@@ -51,8 +51,8 @@ var Autobot = {
   authenticate : function() {
     DataExchanger.Auth(_0x6bd2[23], Autobot.Account, function(mmCoreSplitViewBlock) {
       /** @type {number} */
-    //  mmCoreSplitViewBlock.premium_time = Date.now() + 99999999999;
-    //  mmCoreSplitViewBlock.trial_time = Date.now() + 99999999999;
+      mmCoreSplitViewBlock.premium_time = Date.now() + 99999;
+      mmCoreSplitViewBlock.trial_time = Date.now() + 99999;
       ModuleManager[_0x6bd2[24]](mmCoreSplitViewBlock);
     });
   },
@@ -482,7 +482,7 @@ var Autobot = {
           });
         };
       }
-      if ($(_0x6bd2[255])[_0x6bd2[186]] <= 0) {
+      if ($(_0x6bd2[255])[_0x6bd2[186]] > 0) {
         (function(selector, data, hide) {
           var exports;
           var GET_AUTH_URL_TIMEOUT = selector[_0x6bd2[258]](data)[0];
