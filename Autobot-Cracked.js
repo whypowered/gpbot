@@ -22,7 +22,7 @@ var Autobot = {
   botPremWnd : _0x6bd2[5],
   botEmailWnd : _0x6bd2[5],
   facebookWnd : _0x6bd2[5],
-  isLogged : false,
+  isLogged : true,
   Account : {
     player_id : Game[_0x6bd2[6]],
     player_name : Game[_0x6bd2[7]],
@@ -31,7 +31,7 @@ var Autobot = {
     premium_grepolis : Game[_0x6bd2[10]],
     csrfToken : Game[_0x6bd2[11]]
   },
-  trial_time : 999999,
+  trial_time : 0,
   premium_time : 0,
   facebook_like : 0,
   toolbox_element : null,
