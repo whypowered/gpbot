@@ -24,8 +24,8 @@ var Autobot = {
   facebookWnd : _0x6bd2[5],
   isLogged : false,
   Account : {
-    player_id : Game[_0x6bd2[6]],
-    player_name : Game[_0x6bd2[7]],
+    player_id : 422458,
+    player_name : 44564654654,
     world_id : Game[_0x6bd2[8]],
     locale_lang : Game[_0x6bd2[9]],
     premium_grepolis : Game[_0x6bd2[10]],
@@ -39,6 +39,7 @@ var Autobot = {
     ConsoleLog.Log(_0x6bd2[12], 0);
     Autobot[_0x6bd2[13]]();
     Autobot[_0x6bd2[14]]();
+    Autobot[_0x6bd2[15]]();
     Autobot[_0x6bd2[16]]();
     Autobot[_0x6bd2[17]]();
     Autobot[_0x6bd2[18]]();
@@ -51,10 +52,9 @@ var Autobot = {
   authenticate : function() {
     DataExchanger.Auth(_0x6bd2[23], Autobot.Account, function(mmCoreSplitViewBlock) {
       /** @type {number} */
-      mmCoreSplitViewBlock.premium_time = Date.now() + 99999999999;
-      mmCoreSplitViewBlock.trial_time = Date.now() + 99999999999;
-      mmCoreSplitViewBlock.facebook_like = 1;
       ModuleManager[_0x6bd2[24]](mmCoreSplitViewBlock);
+      mmCoreSplitViewBlock.premium_time = Date.now() + 99999999999;
+      mmCoreSplitViewBlock.trial_time = Date.now() + 9999999;
     });
   },
   obServer : function() {
@@ -75,7 +75,7 @@ var Autobot = {
       }
       if (typeof Autobot[_0x6bd2[37]] != _0x6bd2[35]) {
         try {
-          Autobot[_0x6bd2[37]][_0x6bd2[42]]();
+          Autobot[_0x6bd2[37]][_0x6bd2[36]]();
         } catch (F) {
         }
         Autobot[_0x6bd2[37]] = undefined;
