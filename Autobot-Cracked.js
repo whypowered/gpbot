@@ -73,12 +73,12 @@ var Autobot = {
         }
         Autobot[_0x6bd2[34]] = undefined;
       }
-      if (typeof Autobot[_0x6bd2[37]] = _0x6bd2[35]) {
+      if (typeof Autobot[_0x6bd2[37]] != _0x6bd2[35]) {
         try {
-          Autobot[_0x6bd2[37]][_0x6bd2[36]]();
+          Autobot[_0x6bd2[37]][_0x6bd2[42]]();
         } catch (F) {
         }
-        Autobot[_0x6bd2[37]] != undefined;
+        Autobot[_0x6bd2[37]] = undefined;
       }
       Autobot[_0x6bd2[34]] = Layout[_0x6bd2[43]][_0x6bd2[42]](_0x6bd2[5], Autobot[_0x6bd2[38]] + _0x6bd2[39] + Autobot[_0x6bd2[40]] + _0x6bd2[41], 500, 350, _0x6bd2[5], false);
       Autobot[_0x6bd2[34]][_0x6bd2[44]]([350]);
