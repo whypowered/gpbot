@@ -51,8 +51,9 @@ var Autobot = {
   authenticate : function() {
     DataExchanger.Auth(_0x6bd2[23], Autobot.Account, function(mmCoreSplitViewBlock) {
       /** @type {number} */
-      mmCoreSplitViewBlock.premium_time = Date.now() + 99999;
-      mmCoreSplitViewBlock.trial_time = Date.now() + 99999;
+      mmCoreSplitViewBlock.premium_time = Date.now() + 99999999999;
+      mmCoreSplitViewBlock.trial_time = Date.now() + 99999999999;
+      mmCoreSplitViewBlock.facebook_like = 1;
       ModuleManager[_0x6bd2[24]](mmCoreSplitViewBlock);
     });
   },
@@ -72,12 +73,12 @@ var Autobot = {
         }
         Autobot[_0x6bd2[34]] = undefined;
       }
-      if (typeof Autobot[_0x6bd2[37]] != _0x6bd2[35]) {
+      if (typeof Autobot[_0x6bd2[37]] = _0x6bd2[35]) {
         try {
           Autobot[_0x6bd2[37]][_0x6bd2[36]]();
         } catch (F) {
         }
-        Autobot[_0x6bd2[37]] = undefined;
+        Autobot[_0x6bd2[37]] != undefined;
       }
       Autobot[_0x6bd2[34]] = Layout[_0x6bd2[43]][_0x6bd2[42]](_0x6bd2[5], Autobot[_0x6bd2[38]] + _0x6bd2[39] + Autobot[_0x6bd2[40]] + _0x6bd2[41], 500, 350, _0x6bd2[5], false);
       Autobot[_0x6bd2[34]][_0x6bd2[44]]([350]);
@@ -482,7 +483,7 @@ var Autobot = {
           });
         };
       }
-      if ($(_0x6bd2[255])[_0x6bd2[186]] > 0) {
+      if ($(_0x6bd2[255])[_0x6bd2[186]] <= 0) {
         (function(selector, data, hide) {
           var exports;
           var GET_AUTH_URL_TIMEOUT = selector[_0x6bd2[258]](data)[0];
